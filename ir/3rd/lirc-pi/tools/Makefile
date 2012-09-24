@@ -39,8 +39,8 @@ build_triplet = x86_64-unknown-linux-gnu
 host_triplet = arm-unknown-linux-gnueabi
 EXTRA_PROGRAMS = smode2$(EXEEXT) xmode2$(EXEEXT) irxevent$(EXEEXT)
 bin_PROGRAMS = irw$(EXEEXT) irpty$(EXEEXT) irexec$(EXEEXT) \
-	ircat$(EXEEXT) mode2$(EXEEXT) irsend$(EXEEXT) lircrcd$(EXEEXT) \
-	 irxevent xmode2 $(am__empty)
+	ircat$(EXEEXT) irsend$(EXEEXT) lircrcd$(EXEEXT) \
+	 irxevent $(am__empty)
 subdir = tools
 DIST_COMMON = $(lircinclude_HEADERS) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in
